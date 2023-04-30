@@ -3,27 +3,90 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>INVO Academy JS Starter with Vite</title>
-  <script type="module" crossorigin src="/assets/index-8f741a43.js"></script>
-  <link rel="stylesheet" href="/assets/index-a9aa33a4.css">
+  <script type="module" crossorigin src="/invo4/assets/index-fe6602a3.js"></script>
+  <link rel="stylesheet" href="/invo4/assets/index-89f46773.css">
 </head>
 
-<!-- In order to start your challenge, remove all the content inside <div id="home-page"></div> and start coding :) -->
-
 <body>
-  <div id="home-page">
-    <div>
-      <img src="/assets/javascript-8dac5379.svg" class="logo vanilla" alt="JavaScript logo" />
-      <h1>INVO Academy JS Starter with Vite</h1>
-      <p>
-        See the README.md for more information on how to start your challenge.
+  <div id="home-page" class="home-page">
+    
+    <div class="header">
+      <h1 class="header__title">Pricing</h1>
+      <p class="header__text">
+        Choose the right pricing for you and get started with your project.
       </p>
+    </div>
+
+    <div class="content">
       <div class="card">
-        <button id="counter" type="button"></button>
+        <div class="card__bloc">
+          <div class="card__title">
+            <h2>Basic</h2>
+            <div class="cena">
+              <span class="cena__dollar">$</span>
+              <span class="cena__sum">399</span>
+              <span class="cena__year">/year</span>
+            </div>
+          </div>
+          <p class="card__text">For organizing every corner of your work & life.</p>
+          <ul class="card__list">
+            <li>Collaborative workspace</li>
+            <li>7 day page history</li>
+          </ul>
+        </div>
+        <button class="card__btn">
+          Get started
+        </button>
+      </div>
+
+      <div class="card">
+        <div class="card__bloc">
+          <div class="card__title">
+            <h2>Professional</h2>
+            <div class="cena">
+              <span class="cena__dollar">$</span>
+              <span class="cena__sum">499</span>
+              <span class="cena__year">/year</span>
+            </div>
+        </div>
+          <p class="card__text">A place for small groups to plan & get organized.</p>
+          <ul class="card__list list">
+            <li>All features in Basic</li>
+            <li>Unlimited blocks for teams</li>
+            <li>30 day page history</li>
+          </ul>
+        </div>
+        <button class="card__btn btn">
+          Get started
+        </button>
+      </div>
+
+      <div class="card">
+        <div class="card__bloc">
+          <div class="card__title">
+            <h2>Enterprise</h2>
+            <div class="cena">
+              <span class="cena__dollar">$</span>
+              <span class="cena__sum">599</span>
+              <span class="cena__year">/year</span>
+            </div>
+          </div>
+          <p class="card__text">For companies using our software to connect several teams & tools.</p>
+          <ul class="card__list">
+            <li>SAML SSO</li>
+            <li>Private teamspaces</li>
+            <li>Advanced page analytics</li>
+            <li>90 day page history</li>
+          </ul>
+        </div>
+        <button class="card__btn">
+          Get started
+        </button>
       </div>
     </div>
+
   </div>
 
   
